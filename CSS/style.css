@@ -1,6 +1,7 @@
 
 body {
     background-color: #1f1f1f;
+    height: 1500px;
 }
 
 header {
@@ -19,8 +20,8 @@ header {
     margin: 15px;
 }
 .imgMid {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .imgSml {
@@ -41,31 +42,50 @@ header {
 }
 
 .sixElement {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    background-color: aqua;
-    /* padding: 5%; */
-
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+    padding: 5px;
+    width: 90%;
+    
+    /* background-color: aqua; */
 }
 
 .fourDoubleElement {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
+    
 
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .fourDoubleItem {
+    padding: 20px;
     text-align: center;
+    
+
+}
+
+.buttonMain {
+    border: 1px solid #c743d8;
+    background-color: #411d46;
+    height: 20px;
+    width: 125px;
+    
+    margin: auto;
+    margin-top: 10px;
 }
 
 .threeDoubleElement {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    
+}
 
-    max-height: 55px;
-    background-color: blueviolet;
+.threeDoubleItem {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 10px;
 
 }
