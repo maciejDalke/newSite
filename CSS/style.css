@@ -18,6 +18,15 @@ header {
 .imgTop {
     margin: 15px;
 }
+.imgMid {
+    height: 100px;
+    width: 100px;
+}
+
+.imgSml {
+    height: 40px;
+    width: 40px;
+}
 
 .mainDiv {
     display: flex;
@@ -41,19 +50,22 @@ header {
 
 .fourDoubleElement {
     display: grid;
-    grid-template-columns: 4, 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
 
     background-color: blue;
-
 }
 
-/* .fourDoubleItem {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-} */
+.fourDoubleItem {
+    text-align: center;
+}
 
 .threeDoubleElement {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
+    max-height: 55px;
     background-color: blueviolet;
 
 }
