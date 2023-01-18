@@ -39,16 +39,25 @@
         }
 
         .sixElement {
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
             background-color: aqua;
-            padding: 5%;
+            /* padding: 5%; */
 
         }
 
         .fourDoubleElement {
+            display: grid;
+            grid-template-columns: 4, 1fr;
 
             background-color: blue;
 
         }
+
+        /* .fourDoubleItem {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+        } */
 
         .threeDoubleElement {
 
@@ -78,7 +87,22 @@
             <img src="img/dress.png" alt="dress">
         </div>
         <div class="fourDoubleElement"> 
-            sdfsd
+            <div class="fourDoubleItem">
+                <img src="img/dress.png" alt="dress"> 
+                <p>Object</p>    
+            </div>
+            <div class="fourDoubleItem">
+                <img src="img/dress.png" alt="dress"> 
+                <p>Object</p>    
+            </div>
+            <div class="fourDoubleItem">
+                <img src="img/dress.png" alt="dress"> 
+                <p>Object</p>    
+            </div>
+            <div class="fourDoubleItem">
+                <img src="img/dress.png" alt="dress"> 
+                <p>Object</p>    
+            </div>
         </div>
         <div class="threeDoubleElement"> 
             sdfsd
