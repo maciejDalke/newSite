@@ -19,6 +19,13 @@ header {
 .imgTop {
     margin: 15px;
 }
+
+.imgBig {
+    width: 125px;
+    height: 125px;
+    background-color: wheat;
+}
+
 .imgMid {
     height: 80px;
     width: 80px;
@@ -47,24 +54,18 @@ header {
     margin: auto;
     padding: 5px;
     width: 90%;
-    
-    /* background-color: aqua; */
+    margin-top: 10px;
 }
 
 .fourDoubleElement {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
-    
-
-    /* background-color: blue; */
 }
 
 .fourDoubleItem {
     padding: 20px;
     text-align: center;
-    
-
 }
 
 .buttonMain {
@@ -77,9 +78,14 @@ header {
     margin-top: 10px;
 }
 
+.buttonSmall {
+    width: 40px;
+    height: 10px;
+}
+
 .threeDoubleElement {
     display: flex;
-    
+    height: 80px;
 }
 
 .threeDoubleItem {
@@ -87,5 +93,4 @@ header {
     margin-top: 10px;
     margin-left: 10px; 
     margin-right: 10px;
-
 }
